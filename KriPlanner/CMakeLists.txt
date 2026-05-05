@@ -24,6 +24,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         maintablemodel.h maintablemodel.cpp
+        datatypes.h
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET KriPlanner APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
