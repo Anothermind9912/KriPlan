@@ -18,7 +18,7 @@
     <item row="0" column="0">
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -29,22 +29,22 @@
          <rect>
           <x>20</x>
           <y>50</y>
-          <width>256</width>
+          <width>451</width>
           <height>192</height>
          </rect>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="addTask_pushButton">
         <property name="geometry">
          <rect>
-          <x>30</x>
-          <y>10</y>
-          <width>80</width>
+          <x>20</x>
+          <y>20</y>
+          <width>151</width>
           <height>24</height>
          </rect>
         </property>
         <property name="text">
-         <string>PushButton</string>
+         <string>Добавить задачу</string>
         </property>
        </widget>
       </widget>

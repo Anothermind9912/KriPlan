@@ -2,12 +2,16 @@
 #define MAINTABLEMODEL_H
 
 #include <QAbstractTableModel>
+#include "datatypes.h"
+#include <QColor>
 
 class mainTableModel : public QAbstractTableModel
 {
     Q_OBJECT
 
 public:
+
+
     explicit mainTableModel(QObject *parent = nullptr);
 
     // Header:
@@ -46,6 +50,7 @@ public:
     bool removeColumns(int column, int count, const QModelIndex &parent = QModelIndex()) override;
 
 private:
+    QVector<Task> main_tasks;
 };
 
 #endif // MAINTABLEMODEL_H
